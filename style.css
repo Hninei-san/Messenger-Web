@@ -1,0 +1,130 @@
+.menu{
+  
+ 
+}
+.logo{
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+    margin-right: 700px;
+}
+.nav{
+    font-family: sans-serif;
+    margin-top: -25px;
+    margin-left: 700px;
+    
+}
+
+.header{
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    background: -webkit-linear-gradient(81.84deg , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    letter-spacing: -2px;
+    line-height: 82px;
+    margin-bottom: 20px;
+}
+.description{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color:darkslategray;
+}
+.all{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.MenuItem{
+    text-decoration: none;
+    color: inherit;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+.MenuItem:hover {
+    border-bottom: solid #228AE5;
+    
+
+}
+
+.blockElement{
+    display: block;
+    width: 300px;
+    height: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgba(193, 193, 193, 0.3);
+        border: none;
+        outline: none;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    
+    
+.signin{
+    background: -webkit-linear-gradient(81.84deg , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    
+    border: none;
+    padding: 2px 20px 0px;
+    font-size: 19px;
+    border-radius: 24px;
+    color: white;
+    
+    
+    height: 40px;
+    width: 100px;
+}
+.inputspan{
+    margin-bottom: 20px;
+}
+.pw{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: darkslategray;
+}
+.container{
+    
+}
+.left{
+    display: inline-block;
+    width: 45%;
+    margin-top: 150px ;
+}
+.DownloadImage{
+    width: 100px;
+    height: 70px;
+}
+.right{
+    display: inline-block;
+    width: 40%;
+    margin-top: 100px;
+}
+.ChatImage{
+    width: 600px;
+    height: 600px;
+    margin-left:100px ;
+    margin-top: auto;
+    margin-bottom: 70px;
+
+}
+.footer{
+    background: -webkit-linear-gradient(81.84deg , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    margin-top: 40px;
+    text-align: center;
+    padding: 25px;
+    
+}
+.learn{
+    color: black;
+    text-decoration-line: underline;
+}
+.footerfb{
+    font-family: sans-serif;
+    color: white;
+    font-size: 17px;
+    
+}
