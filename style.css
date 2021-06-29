@@ -1,7 +1,4 @@
-.menu{
-  
- 
-}
+
 .logo{
     margin-top: 50px;
     width: 40px;
@@ -86,9 +83,7 @@
     font-family: sans-serif;
     color: darkslategray;
 }
-.container{
-    
-}
+
 .left{
     display: inline-block;
     width: 45%;
