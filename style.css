@@ -1,18 +1,33 @@
-
-
-.element{
-    margin: 0px;
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  .mainContainer {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 1000px;
+  }
+  .menu{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid lightgray;
+    background-color: #FAFAFA;
+    opacity: 0.9;
 }
+
+
 .logo{
-    margin-top: 50px;
-    width: 40px;
-    height: 40px;
-    margin-right: 700px;
-}
+    width: 100%;}
+
 .nav{
     font-family: sans-serif;
-    margin-top: -25px;
-    margin-left: 700px;
+    margin-top: -2px;
+    margin-left: 400px;
     
 }
 
@@ -32,52 +47,53 @@
     font-family: sans-serif;
     color:darkslategray;
 }
-.all{
-    margin-left: 100px;
-    margin-right: 50px;
-}
+.logoContainer {
+    width: 50px;
+    height: 50px;
+    margin-right: -200px;
+  }
+  
 .MenuItem{
     text-decoration: none;
     color: inherit;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
+    font-size: 16px;
     font-weight: bold;
     
 }
-.MenuItem:hover {
-    border-bottom: solid #228AE5;
+
+.menuItem:hover {
+    border-bottom: solid #e5227d;
+  }
+  
+.blockElement {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: none;
+            background-color: rgba(193, 193, 193, 0.3);
+            height: 35px;
+            width: 300px;
+            border-radius: 15px;
+            outline: none;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 16px;
+          
+          }
     
-
-}
-
-.blockElement{
-    display: block;
-    width: 300px;
-    height: 35px;
-        padding-left: 15px;
-        padding-right: 15px;
-        background-color: rgba(193, 193, 193, 0.3);
-        border: none;
-        outline: none;
-        border-radius: 15px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        font-size: 16px;
-    }
     
     
 .signin{
     background: -webkit-linear-gradient(81.84deg , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
-    
-    border: none;
-    padding: 2px 20px 0px;
-    font-size: 19px;
-    border-radius: 24px;
-    color: white;
-    
-    
-    height: 40px;
-    width: 100px;
+
+  border-radius: 24px;
+  border: none;
+  color: white;
+  padding: 2px 20px 0px;
+  font-size: 19px;
+  height: 40px;
+  width: 100px;
 }
 .inputspan{
     margin-bottom: 20px;
@@ -90,31 +106,44 @@
 
 .left{
     display: inline-block;
-    width: 45%;
-    margin-top: 150px ;
+    width: 50%;
 }
 .DownloadImage{
     width: 100px;
     height: 70px;
 }
-.right{
-    display: inline-block;
-    width: 40%;
-    margin-top: 100px;
-}
-.ChatImage{
-    width: 600px;
-    height: 600px;
-    margin-left:100px ;
-    margin-top: auto;
-    margin-bottom: 70px;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+.inner {
+    width: 50%;
+    margin-top: 40%;
+  }
+  
+  .right {
+      display: inline-block;
+      width: 40%;
+      margin-top: 17%;
+  }
 
+.ChatImage {
+    width: 140%;
+}
+
+.mobileMenuContainer {
+  display: none;
 }
 .footer{
     background: -webkit-linear-gradient(81.84deg , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
-    margin-top: 40px;
     text-align: center;
-    padding: 25px;
+    
+    font-size: 40px;
+    margin-top: 70px;
+    padding: 50px;
     
 }
 .learn{
@@ -127,3 +156,47 @@
     font-size: 17px;
     
 }
+@media (max-width: 767px) {
+    .nav {
+      display: none
+    }
+  
+    .mobileMenuContainer {
+      display: block;
+      margin-left: 50%;
+    }
+  
+    .left {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  
+    .inner {
+      width: 64%;
+      margin: 0 auto;
+      padding-top: 30%;
+    }
+  
+    .right {
+      width: 100%;
+      overflow: hidden;
+      text-align: center;
+    }
+    
+    .ChatImage {
+      margin: 0 -50%;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .inner {
+      width: 95%;
+    }
+  
+    .footer {
+      margin-top: 30px;
+      font-size: 30px;
+      padding: 10px;
+    }
+  }
+  
